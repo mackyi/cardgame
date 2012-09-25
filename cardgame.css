@@ -1,34 +1,7 @@
 
 
-#navbar{
-	height: 40px;
+.page-header{
+	height: 200px;
 	background-color: lightblue;
 	padding: 5px;
-}
-
-body>header{
-	height: 100px;
-	background-color: red;
-	padding: 10px;
-}
-
-body>section{
-	height: 480px;
-	background-color: yellow;
-	float: left;
-	width: 75%;
-	margin:0 20px;
-}
-
-body>aside{
-	height: 480px;
-	background-color: green;
-	float: right;
-	width: 15%;
-}
-
-body>footer{
-	height: 80px;
-	background-color: orange;
-	clear:both;
 }
