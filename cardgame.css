@@ -5,3 +5,11 @@
 	background-color: lightblue;
 	padding: 5px;
 }
+
+ul.nav{
+	height: 40px;
+}
+
+body{
+	padding: 60px;
+}
