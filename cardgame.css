@@ -1,15 +1,67 @@
 
-
-.page-header{
-	height: 200px;
-	background-color: lightblue;
-	padding: 5px;
-}
-
 ul.nav{
 	height: 40px;
 }
 
 body{
-	padding: 60px;
+	padding: 10px 20px 0px;
+	background-color:#000
 }
+
+.hero-unit{
+	
+	
+}
+
+.brand{
+	
+}
+
+.gamebox{
+	height: 600px;
+	background-color: #093;
+}
+
+.gametable{
+	height:75%;
+	background-color: #fff;
+	background-image: url(images/table2.png);
+}
+
+.chatBox{
+	font-family:tahoma;
+	font-size:12px;
+	height: 130px;
+    color:black;
+	border: 1px teal solid;
+	overflow: scroll;
+	background-color:white;
+	margin:5px;
+}
+
+.gamePicture{
+	margin: 5px;
+}
+
+
+
+
+/* CSS Document */
+
+input { font:12px arial; }
+
+#chatbox {
+	text-align:left;
+	margin:0 auto;
+	margin-bottom:2px;
+	padding:5px;
+	background:#fff;
+	height:100px;
+	border:1px solid #ACD8F0;
+	overflow:auto; }
+#usermsg {
+	margin-top:5px;
+	border:1px solid #ACD8F0;
+	width:75%; }
+
+
