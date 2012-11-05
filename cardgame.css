@@ -4,64 +4,65 @@ ul.nav{
 }
 
 body{
-	padding: 10px 20px 0px;
+	padding: 40px 20px 0px;
 	background-color:#000
 }
-
-.hero-unit{
-	
-	
-}
-
-.brand{
-	
+.spacer {
+	margin-bottom: 40px;
 }
 
 .gamebox{
 	height: 600px;
-	background-color: #093;
+	width:1060px;
+	background-color: #999;
+	margin: 0px;
 }
 
 .gametable{
-	height:75%;
+	height:70%;
 	background-color: #fff;
 	background-image: url(images/table2.png);
+	position: relative;
+	padding: 5px;
+	margin: 0px;
 }
 
-.chatBox{
-	font-family:tahoma;
-	font-size:12px;
-	height: 130px;
-    color:black;
-	border: 1px teal solid;
-	overflow: scroll;
-	background-color:white;
-	margin:5px;
+
+.chatBox{ 
+	font-family:tahoma; 
+	font-size:12px; 
+	padding:0px; 
+	margin:0px; 
+	width: 200px;
+}
+.chatBox p { 
+	line-height:18px; 
 }
 
-.gamePicture{
+#content { 
+	padding:0px; 
+	background:#ddd; 
+	border-radius:5px;
+    border:1px solid #CCC;
+    margin-top:3px; 
+    height: 120px; 
+    overflow:auto;
+}
+#input {
+	border-radius:2px; 
+	border:1px solid #ccc;
+	margin-top:3px; 
+	padding:5px; 
+	width:200px;  }
+#status { 
+	width:88px; 
+	display:block; 
+	float:left; 
+	margin-top:8px; 
+}
+
+
+/*.gamePicture{
 	margin: 5px;
-}
-
-
-
-
-/* CSS Document */
-
-input { font:12px arial; }
-
-#chatbox {
-	text-align:left;
-	margin:0 auto;
-	margin-bottom:2px;
-	padding:5px;
-	background:#fff;
-	height:100px;
-	border:1px solid #ACD8F0;
-	overflow:auto; }
-#usermsg {
-	margin-top:5px;
-	border:1px solid #ACD8F0;
-	width:75%; }
-
+}*/
 
