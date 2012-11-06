@@ -5,7 +5,15 @@ ul.nav{
 
 body{
 	padding: 40px 20px 0px;
-	background-color:#000
+	background-color:#3D3D3D
+}
+
+h2 {
+	color:#DEDEDE;
+}
+
+p {
+	color:#DEDEDE
 }
 .spacer {
 	margin-bottom: 40px;
